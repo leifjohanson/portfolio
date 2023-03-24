@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+    font-family: 'Inter', sans-serif;
+    color: #ECEFF1;
+}
+
+.photoName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20%;
+    background-image: url('/src/components/Education/AW-WWU-Background-2.png');
+    height: 800px;
+    /* Height of nav bar (?)*/
+    margin-top: 96px;
+    padding-bottom: 30px;
+}
+
+.pfp {
+    height: 300px;
+    margin: 10px 0px;
+    border-radius: 100px;
+    background-color: transparent;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 10px 0px;
+    background-color: transparent;
+}
+
+h2, em {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.socialLinks {
+    margin-top: 10px;
+    list-style: none;
+    background-color: transparent;
+}
+
+.socialLinks li {
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.socialLinks li .socialLogo {
+    height: 50px;
+    background-color: transparent;
+}
+
+
+/* This gets rid of the background on the social images */
+.socialLinks li a {
+    background-color: transparent;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+}

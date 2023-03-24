@@ -1,0 +1,15 @@
+.languageList {
+    margin-top: 0px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20%;
+    background-color: white;
+}
+
+.sectionTitle {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #333;
+}
