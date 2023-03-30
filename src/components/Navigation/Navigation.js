@@ -10,13 +10,13 @@ function Navigation() {
             <nav>
                 <ul className="navLinks">
                     <li>
-                        <Link to="/home">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/ios">iOS Projects</Link>
+                        <Link to="/skills">My Skills and Education</Link>
                     </li>
                     <li>
-                        <Link to="/swe">SWE Projects</Link>
+                        <Link to="/projects">My Projects</Link>
                     </li>
                 </ul>
             </nav>

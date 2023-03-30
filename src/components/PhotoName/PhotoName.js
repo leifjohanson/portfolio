@@ -5,6 +5,7 @@ import pfp from "./pfp.jpg"
 import githubLogo from "./github-mark-white.png";
 import linkedInLogo from "./linkedInLogo.png";
 import appStoreLogo from "./App-Store-Logo.png"
+import emailIcon from './EmailIcon.png';
 
 function PhotoName() {
     return (
@@ -26,6 +27,11 @@ function PhotoName() {
                 <li>
                     <a href='https://apps.apple.com/us/developer/leif-johanson/id1628448089'>
                         <img className="socialLogo" src={appStoreLogo} alt="My Apple Developer Profile"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='mailto:leifbjohanson@gmail.com'>
+                        <img className="socialLogo" src={emailIcon} alt="My Email (leifbjohanson@gmail.com)"/>
                     </a>
                 </li>
             </ul>
