@@ -16,7 +16,7 @@ function Education() {
                 </div>
                 <div className='educationCard'>
                     <p className="educationCardTitle">
-                        3.55 GPA
+                        3.52 GPA
                     </p>
                     <p className="educationCardSubtitle">
                         Western Washington University

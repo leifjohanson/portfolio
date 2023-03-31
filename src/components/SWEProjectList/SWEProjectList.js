@@ -18,14 +18,14 @@ var projects = [
         description: "Vacation planner web application built using React for WWU's web development course. Development team consisted of 5 students, including myself. Used multiple APIs, including Yelp's and Google Maps (see Activities page, pictured), as well as a backend, primarily using MongoDB.",
         image: TravelrImage,
         buttonTitle: "SEE ON GITHUB",
-        link: "https://github.com/leifjohanson/labyrinth"
+        link: "https://github.com/leifjohanson/travelr"
     },
     {
         title: "Labyrinth Game",
         description: "Three person OOP-focused software development project. I managed myself and two other engineers to create this single or co-op labyrinth game (see repository for rules and gameplay). This project was built fully in Java, including the UI elements.",
         image: LabyrinthImage,
         buttonTitle: "SEE ON GITHUB",
-        link: "https://github.com/leifjohanson/travelr"
+        link: "https://github.com/leifjohanson/labyrinth"
     },
 ]
 // 
