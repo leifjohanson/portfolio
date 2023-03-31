@@ -132,3 +132,25 @@
         font-size: 20px;
     }
 }
+
+/* CSS rules for iPads in landscape orientation */
+@media only screen and (min-width: 1023px) and (max-width: 1366px) and (orientation: landscape) {
+    .contactCardWrapper {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .contactCard {
+        width: 100%; /* adjust width as needed */
+        height: 200px; /* adjust height as needed */
+        margin-bottom: 10px; 
+    }
+
+    .contactCardTitle {
+        font-size: 28px;
+    }
+    
+    .contactCardSubtitle a {
+        font-size: 20px;
+    }
+}

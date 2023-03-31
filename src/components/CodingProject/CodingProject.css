@@ -85,30 +85,13 @@
 }
 
 /* CSS rules for screens between the widths of the iPad mini and 12.9 inch iPad Pro in portrait mode go here */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
     .codingProjectCard {
-        flex-direction: column;
-        height: fit-content;
+        width: 150%;
     }
 
-    .codingProjectCard img {
-        height: 0%;
-    }
-
-    .codingProjectCard__title {
-        text-align: center;
-        font-size: 24px;
-    }
-        
     .codingProjectCard__description {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .codingProjectCard__button {
-        align-self: center;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 16px;
     }
 }
 
@@ -137,5 +120,16 @@
         align-self: center;
         font-size: 12px;
         font-weight: 600;
+    }
+}
+
+/* CSS rules for iPads in landscape orientation */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+    .codingProjectCard {
+        width: 133%;
+    }
+
+    .codingProjectCard__description {
+        font-size: 20px;
     }
 }

@@ -4,16 +4,26 @@ import './Navigation.css';
 import logo from "./logo-light-mode.png";
 
 function Navigation() {
+    function goToTop() {
+        const anchor = document.querySelector('#photoName');
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function goToSkills() {
+        const anchor = document.querySelector('#languageList');
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
     return (
         <header>
             <img className='logo' src={logo} alt="Leif Johanson"/>
             <nav>
                 <ul className="navLinks">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={goToTop}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/skills">My Skills and Education</Link>
+                        <Link to="/skills" onClick={goToSkills}>My Skills and Education</Link>
                     </li>
                     <li>
                         <Link to="/projects">My Projects</Link>

@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter as Routes, Route, Outlet } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import PhotoName from './components/PhotoName/PhotoName';
 import Education from './components/Education/Education';
@@ -17,6 +18,11 @@ function App() {
       <MobileProjectList />
       <SWEProjectList />
       <Contact />
+
+      {/* <main>
+          <Route path="/" component={PhotoName} />
+          <Route path="/skills" component={LanguageList} />
+      </main> */}
     </>
   );
 }
