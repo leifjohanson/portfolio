@@ -66,12 +66,12 @@ button:hover {
     header {
         display: none;
     }
+}
 
-    li, a, button {
-        font-family: 'Inter', sans-serif;
-        font-size: 0px;
-        color: #333333;
-        text-decoration: none;
+/* CSS rules for iPhones in landscape orientation */
+@media only screen and (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+    header {
+        display: none;
     }
 }
   

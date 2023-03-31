@@ -90,3 +90,29 @@
         padding-bottom: 10px;
     }
 }
+
+/* CSS rules for iPhones in landscape orientation */
+@media only screen and (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+    .educationCardWrapper {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .educationCard {
+        width: 100%; /* adjust width as needed */
+        height: 200px; /* adjust height as needed */
+        margin-bottom: 10px; 
+    }
+
+    .educationCardTitle {
+        font-size: 24px;
+        font-weight: 800;
+        /* padding-top: 10px; */
+    }
+    
+    .educationCardSubtitle {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+}

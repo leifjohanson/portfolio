@@ -116,3 +116,22 @@ p {
         font-size: 16px;
     }
 }
+
+/* CSS rules for iPhones in landscape orientation */
+@media only screen and (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+    .photoName {
+        margin-top: 0;
+    }
+
+    .pfp {
+        height: 200px;
+        margin: 10px 0px;
+        border-radius: 100px;
+        background-color: transparent;
+    }
+
+    .socialLinks li .socialLogo {
+        height: 30px;
+        background-color: transparent;
+    }
+}

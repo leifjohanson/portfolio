@@ -110,3 +110,25 @@
         font-size: 20px;
     }
 }
+
+/* CSS rules for iPhones in landscape orientation */
+@media only screen and (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+    .contactCardWrapper {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .contactCard {
+        width: 100%; /* adjust width as needed */
+        height: 200px; /* adjust height as needed */
+        margin-bottom: 10px; 
+    }
+
+    .contactCardTitle {
+        font-size: 24px;
+    }
+    
+    .contactCardSubtitle a {
+        font-size: 20px;
+    }
+}
