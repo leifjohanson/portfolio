@@ -43,7 +43,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #dddddd;
+    background-color: transparent;
     border-radius: 5px;
 }
   
@@ -58,6 +58,7 @@
 }
 
 .progress-percent {
+    background-color: transparent;
     position: absolute;
     top: -30px;
     right: 0;

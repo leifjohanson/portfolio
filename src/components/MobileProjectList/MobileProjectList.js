@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import "./MobileProjectList.css";
 import CodingProject from "../CodingProject/CodingProject";
 import SpellChampImage from "./ProjectImages/SpellChamp.png";
 import PassTheTriviaImage from "./ProjectImages/PassTheTrivia.png";
 import RecipeFetcherImage from './ProjectImages/RecipeFetcher.png';
+import { Element } from 'react-scroll'
 
 var projects = [
     {
@@ -32,12 +32,14 @@ var projects = [
 // 
 function MobileProjectList() {
     return (
-        <div className="mobileProjectList">
-            <h1 className="sectionTitle">My iOS Projects</h1>
-            <CodingProject project={projects[0]} />
-            <CodingProject project={projects[1]} />
-            <CodingProject project={projects[2]} />
-        </div>
+        <Element name="my-projects">
+            <div className="mobileProjectList">
+                <h1 className="sectionTitle">My iOS Projects</h1>
+                <CodingProject project={projects[0]} />
+                <CodingProject project={projects[1]} />
+                <CodingProject project={projects[2]} />
+            </div>
+        </Element>
     );
 }
 

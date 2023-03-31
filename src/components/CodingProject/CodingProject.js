@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './CodingProject.css';
-import logo from "../MobileProjectList/ProjectImages/SpellChamp.png";
 
 function CodingProject(props) {
     return (

@@ -1,18 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navigation.css';
 import logo from "./logo-light-mode.png";
+import { scroller } from 'react-scroll';
 
 function Navigation() {
-    function goToTop() {
-        const anchor = document.querySelector('#photoName');
-        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-
-    function goToSkills() {
-        const anchor = document.querySelector('#languageList');
-        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    const scrollTo = (componentName) => {
+        scroller.scrollTo(componentName, {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+          offset: -98 // scrolls to element with an offset of -98px
+        });
+      }
 
     return (
         <header>
@@ -20,17 +19,17 @@ function Navigation() {
             <nav>
                 <ul className="navLinks">
                     <li>
-                        <Link to="/" onClick={goToTop}>Home</Link>
+                        <div onClick={() => scrollTo('photo-name')}>Home</div> 
                     </li>
                     <li>
-                        <Link to="/skills" onClick={goToSkills}>My Skills and Education</Link>
+                        <div onClick={() => scrollTo('my-skills')}>My Skills and Education</div>
                     </li>
                     <li>
-                        <Link to="/projects">My Projects</Link>
+                        <div onClick={() => scrollTo('my-projects')}>My Projects</div>
                     </li>
                 </ul>
             </nav>
-            <Link className='cta' to="/contact"><button>Contact</button></Link>
+            <button onClick={() => scrollTo('contact-me')}>Contact</button>
         </header>
     );
 }

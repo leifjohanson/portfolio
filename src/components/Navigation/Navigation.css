@@ -39,11 +39,12 @@ header {
     padding: 0px 20px;
 }
 
-.navLinks li a {
+.navLinks li div {
+    color: #333333;
     transition: all 0.3s ease 0s;
 }
 
-.navLinks li a:hover {
+.navLinks li div:hover {
     color: #5727B0
 }
 

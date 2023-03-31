@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import "./SWEProjectList.css";
 import CodingProject from "../CodingProject/CodingProject";
 import WWXImage from "../MobileProjectList/ProjectImages/WWXImage.png";
