@@ -81,7 +81,7 @@ p {
     .photoName {
         margin-top: 0;
     }
-    
+
     .pfp {
         height: 200px;
         margin: 10px 0px;
@@ -115,9 +115,4 @@ p {
     p {
         font-size: 16px;
     }
-}
-
-/* CSS rules for iPhones in landscape orientation */
-@media only screen and (min-width: 667px) and (max-width: 896px) and (orientation: landscape) {
-    
 }

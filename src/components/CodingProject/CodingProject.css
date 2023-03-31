@@ -58,6 +58,7 @@
 /* CSS rules for iPhones in portrait orientation */
 @media only screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
     .codingProjectCard {
+        width: 133%;
         flex-direction: column;
         height: fit-content;
     }
@@ -73,6 +74,34 @@
         
     .codingProjectCard__description {
         font-size: 16px;
+        text-align: center;
+    }
+
+    .codingProjectCard__button {
+        align-self: center;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+/* CSS rules for screens between the widths of the iPad mini and 12.9 inch iPad Pro in portrait mode go here */
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
+    .codingProjectCard {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .codingProjectCard img {
+        height: 0%;
+    }
+
+    .codingProjectCard__title {
+        text-align: center;
+        font-size: 24px;
+    }
+        
+    .codingProjectCard__description {
+        font-size: 20px;
         text-align: center;
     }
 
