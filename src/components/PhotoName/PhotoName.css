@@ -78,6 +78,10 @@ p {
 
 /* CSS rules for iPhones in portrait orientation */
 @media only screen and (min-width: 321px) and (max-width: 414px) and (orientation: portrait) {
+    .photoName {
+        margin-top: 0;
+    }
+    
     .pfp {
         height: 200px;
         margin: 10px 0px;
@@ -93,6 +97,9 @@ p {
 
  /* iPhone SE */
 @media only screen and (max-width: 320px) and (orientation: portrait) {
+    .photoName {
+        margin-top: 0;
+    }
     .pfp {
         height: 200px;
         margin: 10px 0px;
