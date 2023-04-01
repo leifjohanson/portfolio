@@ -47,7 +47,7 @@
 }
 
 /* CSS rules for iPhones in portrait orientation */
-@media only screen and (min-width: 321px) and (max-width: 414px) and (orientation: portrait) {
+@media only screen and (min-width: 321px) and (max-width: 500px) and (orientation: portrait) {
     .contactCardWrapper {
         flex-direction: column;
         margin-bottom: 15px;
