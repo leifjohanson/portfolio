@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cc237f4b.css",
-    "main.js": "/portfolio/static/js/main.2bdc6638.js",
-    "static/js/787.4940fc4b.chunk.js": "/portfolio/static/js/787.4940fc4b.chunk.js",
-    "static/media/AW-WWU-Background-2.png": "/portfolio/static/media/AW-WWU-Background-2.0816d990cadb8b46f492.png",
-    "static/media/TravelrImage.png": "/portfolio/static/media/TravelrImage.2b7979ee9063c620558e.png",
-    "static/media/PassTheTrivia.png": "/portfolio/static/media/PassTheTrivia.8802619847cac1435a4f.png",
-    "static/media/SpellChamp.png": "/portfolio/static/media/SpellChamp.d4803114dfdada1ff273.png",
-    "static/media/RecipeFetcher.png": "/portfolio/static/media/RecipeFetcher.3ea31c7572b83979304b.png",
-    "static/media/pfp.jpg": "/portfolio/static/media/pfp.dae114804f5df7f0f1a2.jpg",
-    "static/media/App-Store-Logo.png": "/portfolio/static/media/App-Store-Logo.3319e481554877e6d46c.png",
-    "static/media/WWXImage.png": "/portfolio/static/media/WWXImage.be448a8ef7b73967e3e3.png",
-    "static/media/LabyrinthImage.png": "/portfolio/static/media/LabyrinthImage.ca6dd8d79dc2887d00cb.png",
-    "static/media/logo-light-mode.png": "/portfolio/static/media/logo-light-mode.8fe99530363a88f97232.png",
-    "static/media/CLogo.png": "/portfolio/static/media/CLogo.6a456523bcf0c340c2b2.png",
-    "static/media/SQLLogo.png": "/portfolio/static/media/SQLLogo.5f9fbcd5ba8c6c5e5a6a.png",
-    "static/media/SwiftLogo.png": "/portfolio/static/media/SwiftLogo.7c6dd44e9ded8558a908.png",
-    "index.html": "/portfolio/index.html",
-    "main.cc237f4b.css.map": "/portfolio/static/css/main.cc237f4b.css.map",
-    "main.2bdc6638.js.map": "/portfolio/static/js/main.2bdc6638.js.map",
-    "787.4940fc4b.chunk.js.map": "/portfolio/static/js/787.4940fc4b.chunk.js.map"
+    "main.css": "/static/css/main.157de44b.css",
+    "main.js": "/static/js/main.8abf7690.js",
+    "static/js/787.4940fc4b.chunk.js": "/static/js/787.4940fc4b.chunk.js",
+    "static/media/AW-WWU-Background-2.png": "/static/media/AW-WWU-Background-2.0816d990cadb8b46f492.png",
+    "static/media/TravelrImage.png": "/static/media/TravelrImage.2b7979ee9063c620558e.png",
+    "static/media/PassTheTrivia.png": "/static/media/PassTheTrivia.8802619847cac1435a4f.png",
+    "static/media/SpellChamp.png": "/static/media/SpellChamp.d4803114dfdada1ff273.png",
+    "static/media/RecipeFetcher.png": "/static/media/RecipeFetcher.3ea31c7572b83979304b.png",
+    "static/media/pfp.jpg": "/static/media/pfp.dae114804f5df7f0f1a2.jpg",
+    "static/media/App-Store-Logo.png": "/static/media/App-Store-Logo.3319e481554877e6d46c.png",
+    "static/media/WWXImage.png": "/static/media/WWXImage.be448a8ef7b73967e3e3.png",
+    "static/media/LabyrinthImage.png": "/static/media/LabyrinthImage.ca6dd8d79dc2887d00cb.png",
+    "static/media/logo-light-mode.png": "/static/media/logo-light-mode.8fe99530363a88f97232.png",
+    "static/media/CLogo.png": "/static/media/CLogo.6a456523bcf0c340c2b2.png",
+    "static/media/SQLLogo.png": "/static/media/SQLLogo.5f9fbcd5ba8c6c5e5a6a.png",
+    "static/media/SwiftLogo.png": "/static/media/SwiftLogo.7c6dd44e9ded8558a908.png",
+    "index.html": "/index.html",
+    "main.157de44b.css.map": "/static/css/main.157de44b.css.map",
+    "main.8abf7690.js.map": "/static/js/main.8abf7690.js.map",
+    "787.4940fc4b.chunk.js.map": "/static/js/787.4940fc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc237f4b.css",
-    "static/js/main.2bdc6638.js"
+    "static/css/main.157de44b.css",
+    "static/js/main.8abf7690.js"
   ]
 }
