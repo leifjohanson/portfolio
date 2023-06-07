@@ -37,7 +37,7 @@ function PhotoName() {
                     </li>
                 </ul>
                 <p>
-                    Hello! My name is Leif Johanson, and I am currently a senior at Western Washington University. I am looking for software/iOS engineer positions upon completion of my B.S. in Computer Science in June 2023. I have been programming since 2018, with a focus on mobile and full-stack development.
+                    Hello! My name is Leif Johanson, and I am a recent graduate of Western Washington University with a B.S. in Computer Science and a minor in Business Administration. I am actively searching for software/iOS engineer positions, so please do not hesitate to contact me! I have been programming since 2018, with a focus on mobile and full-stack development.
                 </p>
             </div>
         </Element>

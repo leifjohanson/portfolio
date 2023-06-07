@@ -10,8 +10,8 @@ var projects = [
         title: "Water Weather Stations",
         description: "In progress 10-person software engineering project partnered with the SEA Discovery Center in Poulsbo, WA, that monitors Puget Sound weather conditions using telemetry processing. Contains a website (Angular), API (Node.js), mobile app (Flutter), and hardware (C). I hold the position of mobile application team lead, managing and directing around 3-4 engineers.",
         image: WWXImage,
-        buttonTitle: "SEA DISCOVERY CENTER",
-        link: "https://sea.wwu.edu",
+        buttonTitle: "SEE PRESENTATION",
+        link: "https://docs.google.com/presentation/d/e/2PACX-1vSKb7Srb2hiHK0WY66PNNaVMQw1d3AC2uvMt29Szznj27K1UTZqP2y2ohJHf3fWWNqFpP3SFf_a8JX_/embed?start=false&loop=false&delayms=15000",
     },
     {
         title: "travelr",

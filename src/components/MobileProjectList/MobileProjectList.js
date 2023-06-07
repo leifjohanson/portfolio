@@ -9,7 +9,7 @@ import { Element } from 'react-scroll'
 var projects = [
     {
         title: "Pass The Trivia",
-        description: "Pass The Trivia is a 1200 question, 4000 line multiplayer trivia game published June 2022. It is an independent iOS development project with hundreds of users in over 20 countries worldwide.",
+        description: "Pass The Trivia is a 1200 question single-player or multiplayer trivia game published June 2022. It is an independent iOS development project with hundreds of users in over 20 countries worldwide.",
         image: PassTheTriviaImage,
         buttonTitle: "SEE ON APP STORE",
         link: "https://apps.apple.com/us/app/pass-the-trivia/id1628448087",

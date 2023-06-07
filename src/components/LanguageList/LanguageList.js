@@ -19,7 +19,7 @@ function LanguageList() {
                 <h1 className='sectionTitle'>My Skills</h1>
                 <ProgrammingLanguage title="Swift" imageSrc={SwiftLogo} percent="90%"/>
                 <ProgrammingLanguage title="Java" imageSrc={JavaLogo} percent="85%"/>
-                <ProgrammingLanguage title="Dart" imageSrc={DartLogo} percent="80%"/>
+                {/* <ProgrammingLanguage title="Dart" imageSrc={DartLogo} percent="80%"/> */}
                 <ProgrammingLanguage title="C" imageSrc={CLogo} percent="75%"/>
                 <ProgrammingLanguage title="Python" imageSrc={PythonLogo} percent="75%"/>
                 <ProgrammingLanguage title="JavaScript" imageSrc={JavaScriptLogo} percent="70%"/>
