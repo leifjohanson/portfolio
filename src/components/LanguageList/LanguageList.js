@@ -17,13 +17,9 @@ function LanguageList() {
         <Element name='my-skills'>
             <div className='languageList'>
                 <h1 className='sectionTitle'>My Skills</h1>
-                <ProgrammingLanguage title="Swift" imageSrc={SwiftLogo} percent="90%"/>
-                <ProgrammingLanguage title="Java" imageSrc={JavaLogo} percent="85%"/>
-                {/* <ProgrammingLanguage title="Dart" imageSrc={DartLogo} percent="80%"/> */}
-                <ProgrammingLanguage title="C" imageSrc={CLogo} percent="75%"/>
-                <ProgrammingLanguage title="Python" imageSrc={PythonLogo} percent="75%"/>
-                <ProgrammingLanguage title="JavaScript" imageSrc={JavaScriptLogo} percent="70%"/>
-                <ProgrammingLanguage title="SQL" imageSrc={SQLLogo} percent="70%"/>
+                <ProgrammingLanguage title="Swift" imageSrc={SwiftLogo} title2='Java' image2Src={JavaLogo}/>
+                <ProgrammingLanguage title="C" imageSrc={CLogo} title2='Python' image2Src={PythonLogo}/>
+                <ProgrammingLanguage title="JavaScript" imageSrc={JavaScriptLogo} title2='SQL' image2Src={SQLLogo}/>
             </div>
         </Element>
         

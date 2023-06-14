@@ -3,16 +3,17 @@ import './ProgrammingLanguage.css';
 
 function ProgrammingLanguage(props) {
     return (
-        <div className="container">
-            <img src={props.imageSrc} alt="Swift" />
-            <div className="text-container">
-                <h2>{props.title}</h2>
-                <div className="progress-bar">
-                    <div className="progress-bar-background"></div>
-                    <div className="progress-bar-indicator" style={{ width: props.percent, backgroundColor: "#5727B0" }}></div>
-                    <div className="progress-percent">
-                        {props.percent}
-                    </div>
+        <div className="row">
+            <div className='column'>
+                <img src={props.imageSrc} alt="Swift" />
+                <div className="text-container">
+                    <h2>{props.title}</h2>
+                </div>
+            </div>
+            <div className='column'>
+                <img src={props.image2Src} alt="Swift" />
+                <div className="text-container">
+                    <h2>{props.title2}</h2>
                 </div>
             </div>
         </div>
