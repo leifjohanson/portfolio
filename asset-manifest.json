@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.157de44b.css",
-    "main.js": "/static/js/main.e5c101d6.js",
+    "main.css": "/static/css/main.7666e421.css",
+    "main.js": "/static/js/main.13af7703.js",
     "static/js/787.4940fc4b.chunk.js": "/static/js/787.4940fc4b.chunk.js",
     "static/media/AW-WWU-Background-2.png": "/static/media/AW-WWU-Background-2.0816d990cadb8b46f492.png",
     "static/media/TravelrImage.png": "/static/media/TravelrImage.2b7979ee9063c620558e.png",
@@ -17,12 +17,12 @@
     "static/media/SQLLogo.png": "/static/media/SQLLogo.5f9fbcd5ba8c6c5e5a6a.png",
     "static/media/SwiftLogo.png": "/static/media/SwiftLogo.7c6dd44e9ded8558a908.png",
     "index.html": "/index.html",
-    "main.157de44b.css.map": "/static/css/main.157de44b.css.map",
-    "main.e5c101d6.js.map": "/static/js/main.e5c101d6.js.map",
+    "main.7666e421.css.map": "/static/css/main.7666e421.css.map",
+    "main.13af7703.js.map": "/static/js/main.13af7703.js.map",
     "787.4940fc4b.chunk.js.map": "/static/js/787.4940fc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.157de44b.css",
-    "static/js/main.e5c101d6.js"
+    "static/css/main.7666e421.css",
+    "static/js/main.13af7703.js"
   ]
 }
