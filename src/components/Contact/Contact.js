@@ -29,7 +29,7 @@ function Contact() {
                             Email
                         </p>
                         <p className="contactCardSubtitle">
-                            <a href="mailto:leifbjohanson@gmail.com">leifbjohanson@gmail.com</a>
+                            <a href="mailto:leifjohanson4@gmail.com">leifjohanson4@gmail.com</a>
                         </p>
                     </div>
                 </div>
