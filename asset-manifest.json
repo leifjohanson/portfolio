@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7666e421.css",
-    "main.js": "/static/js/main.13af7703.js",
+    "main.css": "/static/css/main.4be1ac85.css",
+    "main.js": "/static/js/main.7d43cdd1.js",
     "static/js/787.4940fc4b.chunk.js": "/static/js/787.4940fc4b.chunk.js",
     "static/media/AW-WWU-Background-2.png": "/static/media/AW-WWU-Background-2.0816d990cadb8b46f492.png",
     "static/media/TravelrImage.png": "/static/media/TravelrImage.2b7979ee9063c620558e.png",
     "static/media/PassTheTrivia.png": "/static/media/PassTheTrivia.f290fbf855e5efbfa000.png",
     "static/media/SpellChamp.png": "/static/media/SpellChamp.d4803114dfdada1ff273.png",
-    "static/media/RecipeFetcher.png": "/static/media/RecipeFetcher.3ea31c7572b83979304b.png",
-    "static/media/pfp.jpg": "/static/media/pfp.dae114804f5df7f0f1a2.jpg",
     "static/media/App-Store-Logo.png": "/static/media/App-Store-Logo.3319e481554877e6d46c.png",
+    "static/media/pfp1.jpg": "/static/media/pfp1.2ecf8923a763bd887c69.jpg",
     "static/media/WWXImage.png": "/static/media/WWXImage.be448a8ef7b73967e3e3.png",
     "static/media/LabyrinthImage.png": "/static/media/LabyrinthImage.ca6dd8d79dc2887d00cb.png",
     "static/media/logo-light-mode.png": "/static/media/logo-light-mode.8fe99530363a88f97232.png",
@@ -17,12 +16,12 @@
     "static/media/SQLLogo.png": "/static/media/SQLLogo.5f9fbcd5ba8c6c5e5a6a.png",
     "static/media/SwiftLogo.png": "/static/media/SwiftLogo.7c6dd44e9ded8558a908.png",
     "index.html": "/index.html",
-    "main.7666e421.css.map": "/static/css/main.7666e421.css.map",
-    "main.13af7703.js.map": "/static/js/main.13af7703.js.map",
+    "main.4be1ac85.css.map": "/static/css/main.4be1ac85.css.map",
+    "main.7d43cdd1.js.map": "/static/js/main.7d43cdd1.js.map",
     "787.4940fc4b.chunk.js.map": "/static/js/787.4940fc4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7666e421.css",
-    "static/js/main.13af7703.js"
+    "static/css/main.4be1ac85.css",
+    "static/js/main.7d43cdd1.js"
   ]
 }
