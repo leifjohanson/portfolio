@@ -32,12 +32,12 @@ function PhotoName() {
                     </li>
                     <li>
                         <a href='mailto:leifbjohanson@gmail.com'>
-                            <img className="socialLogo" src={emailIcon} alt="My Email (leifbjohanson@gmail.com)"/>
+                            <img className="socialLogo" src={emailIcon} alt="My Email (leifjohanson4@gmail.com)"/>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    Hello! My name is Leif Johanson, and I am a recent graduate of Western Washington University with a B.S. in Computer Science and a minor in Business Administration. I am actively searching for software/iOS engineer positions, so please do not hesitate to contact me! I have been programming since 2018, with a focus on mobile and full-stack development.
+                    Hello! My name is Leif Johanson, and I am a Software Engineer at J2 Building Consultants. I graduated in 2023 from Western Washington University with a B.S. in Computer Science and a minor in Business Administration. I have been programming since 2018, with a focus on full-stack development, the intersection of finance and technology, and mobile development.
                 </p>
             </div>
         </Element>
