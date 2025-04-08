@@ -17,9 +17,9 @@ function LanguageList() {
         <Element name='my-skills'>
             <div className='languageList'>
                 <h1 className='sectionTitle'>My Skills</h1>
-                <ProgrammingLanguage title="Swift" imageSrc={SwiftLogo} title2='Java' image2Src={JavaLogo}/>
-                <ProgrammingLanguage title="C" imageSrc={CLogo} title2='Python' image2Src={PythonLogo}/>
-                <ProgrammingLanguage title="JavaScript" imageSrc={JavaScriptLogo} title2='SQL' image2Src={SQLLogo}/>
+                <ProgrammingLanguage title="JavaScript" imageSrc={JavaScriptLogo} title2='Swift' image2Src={SwiftLogo}/>
+                <ProgrammingLanguage title="Java" imageSrc={JavaLogo} title2='Python' image2Src={PythonLogo}/>
+                <ProgrammingLanguage title="Dart" imageSrc={DartLogo} title2='SQL' image2Src={SQLLogo}/>
             </div>
         </Element>
         
